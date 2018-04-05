@@ -319,3 +319,64 @@ echo "blacklist intel_powerclamp" > /etc/modprobe.d/disable-powerclamp.conf
 top
 sudo rmmod intel_powerclamp
 top
+java version
+java -version
+clear
+wget -q -O - https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add -
+echo deb https://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list
+cat sources.list
+sudo apt-get update
+sudo apt-get install jenkins
+jenkins -version
+sudo systemctl start jenkins
+sudo systemctl status jenkins
+sudo ufw allow 8080
+sudo ufw status
+sudo ufw allow OpenSSH
+sudo ufw enable
+sudo ufw allow 8080
+sudo ufw status
+/var/lib/jenkins/secrets/initialAdminPassword
+sudo /var/lib/jenkins/secrets/initialAdminPassword
+/var/lib/jenkins/secrets/initialAdminPassword
+cd
+sudo su
+cd /home/vishal
+/var/lib/jenkins/secrets/initialAdminPassword
+sudo su-
+sudo su -
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+echo "#Helloworld">> README.md
+git init
+git commit -m "first commit"
+git remote add origin https://github.com/VishalVT56/Helloworld.git
+git push -u origin master
+git add .
+git commit -m 'second commit'
+git push -u origin master
+git clone https://github.com/VishalVT56/Helloworld.git/Hello_Jenkins
+git clone https://github.com/VishalVT56/Hello_Jenkins
+git push -u origin master
+git pull
+git push origin master
+git add 
+git add update.sh
+git push -u origin master
+ls
+clear
+/home/test/jenkinsfile
+cd /home/test/jenkinsfile
+clear
+/
+/home/test/jenkinsfile
+apt-get install nginx -y
+cd /var/www/html
+cat index.html
+cd
+cd /usr/share/nginx/html/
+cat index.html
+cat > index.html
+/etc/init.d/nginx start
+/etc/init.d/nginx status
+cat /etc/nginx/
+exit
